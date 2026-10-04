@@ -116,12 +116,15 @@ program memriksa: "apakah nama & sandi yang dimasukkan benar?"
 
 ADMIN:
 
+
    <img width="960" height="600" alt="Screenshot 2026-10-04 210838" src="https://github.com/user-attachments/assets/3565aad4-5acc-4cdb-935c-bdced7ea38b6" />
 
    <img width="960" height="600" alt="Screenshot 2026-10-04 210854" src="https://github.com/user-attachments/assets/7d0694d7-2d45-49e0-8edc-41bf8b1c8fdd" />
 
    <img width="960" height="600" alt="Screenshot 2026-10-04 210909" src="https://github.com/user-attachments/assets/9efaad4a-1ef2-4715-9efb-175e950e17c1" />
 
+
 PENGGUNA: 
+
 
    <img width="960" height="600" alt="Screenshot 2026-10-04 211059" src="https://github.com/user-attachments/assets/4adef348-1169-49f6-9cf3-72da4ca255f1" />
