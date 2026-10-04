@@ -52,6 +52,67 @@ Kelas: B
 
   tempat jalan program dari awal. Tampil tanggal, minta login, lalu masuk ke menu sesuai peran.
 
+program ini berfungsi untuk mengelola data buku perpustakaan sederhana. Terdapat sistem masuk dengan dua jenis pengguna: 
+
+Admin: yang bisa menambah, melihat, mengubah, dan menhapus data buku, serta
+
+pengguna biasa: yang hanya bisa melihat daftar buku. Data disimpan menggunakan Dictionary python.
 
 
-- 
+2. GAMBAR FLOWCHART:
+
+  <img width="658" height="432" alt="Untitled Diagram DDP minpro 2 drawio" src="https://github.com/user-attachments/assets/c7fd328f-8841-4ed9-8223-92e405669820" />
+ 
+PENJELASAN ALUR FLOWCHART:
+
+1). Mulai
+
+program dimulai dari bentuk elif, lalu lanjutkan ke langkah berikutnya.
+
+2). Masukkan Data (login)
+
+pengguna dimminta mengidentifikasi nama dan sandi. ini tempat memasukkan data.
+
+3). Cek nama & sandi
+
+program memriksa: "apakah nama & sandi yang dimasukkan benar?"
+
+- Jika TIDAK, Muncul tulisan "Nama atau sandi salah!", lalu kembali ke awal untuk memasukkan nama lagi.
+
+- Jika YA, Muncul tulisan "Berhasil masuk!", lalu lanjut ke langkah berikutnya.
+
+  4). Cek peran Pengguna
+
+  program menanyakan: "Peran Siapa?"
+
+  - ADMIN, Masuk ke Menu Admin, isinya 5 pilihan:
+
+    1. Tambah buku
+   
+    2. Lihat semua buku
+   
+    3. Ubah data buku
+   
+    4. Hapus buku
+   
+    5. Keluar
+   
+    setelah selesai memilih dan melakukan sesuatu, bisa kembali ke menu. Kalau pilih Keluar, program berhenti di [Selesai].
+
+- PEMBACA, Masuk ke Menu Pembaca, isinya cuma 2 pilihan:
+
+  1. Lihat semua buku
+ 
+  2. Keluar
+
+  Tidak bisa menambah, mengubah, atau menghapus. Kalau pilih Keluar, program berhenti di [Selesai].
+
+  5). Selesai
+
+  Program berakhir dan berhenti berjalan.
+
+
+3. DOKUMENTASI PROGRAM & OUTPUT
+
+   
+    
