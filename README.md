@@ -8,9 +8,13 @@ Kelas: B
 
 1. PENJELASAN MENGENAI KODE:
 
-- Import time & from datetime import datetime ini Library yang dipakai:
+- Import time:
   
-  Time buat jeda sebentar agar tidak langsung lewat, datetime buat tampilin tanggal waktu sekarang.
+  Time buat memberi jeda tampilan agar mudah dibaca
+
+- Datetime:
+
+  Menampilkan tanggal dan waktu saat login
 
 - Pengguna = {...}:
 
