@@ -81,11 +81,11 @@ program memriksa: "apakah nama & sandi yang dimasukkan benar?"
 
 - Jika YA, Muncul tulisan "Berhasil masuk!", lalu lanjut ke langkah berikutnya.
 
-  4). Cek peran Pengguna
+4). Cek peran Pengguna
 
   program menanyakan: "Peran Siapa?"
 
-  - ADMIN, Masuk ke Menu Admin, isinya 5 pilihan:
+- ADMIN, Masuk ke Menu Admin, isinya 5 pilihan:
 
     1. Tambah buku
    
@@ -114,5 +114,12 @@ program memriksa: "apakah nama & sandi yang dimasukkan benar?"
 
 3. DOKUMENTASI PROGRAM & OUTPUT
 
-   
-    
+   <img width="960" height="600" alt="Screenshot 2026-10-04 002619" src="https://github.com/user-attachments/assets/bc6b3d70-e2d9-4af8-8176-5a78e74a56f0" />
+
+   <img width="960" height="600" alt="Screenshot 2026-10-04 002642" src="https://github.com/user-attachments/assets/3be6ad58-89e6-4e34-a1b4-4e7fbdd5a774" />
+
+   <img width="960" height="600" alt="Screenshot 2026-10-04 002658" src="https://github.com/user-attachments/assets/4565ca1c-7d3e-4333-a0eb-02b87676fa71" />
+
+   <img width="960" height="600" alt="Screenshot 2026-10-04 002942" src="https://github.com/user-attachments/assets/5494413d-4b70-498c-a196-48523da1c4fa" />
+
+
