@@ -70,52 +70,71 @@ pengguna biasa: yang hanya bisa melihat daftar buku. Data disimpan menggunakan D
  
 PENJELASAN ALUR FLOWCHART:
 
-1). Mulai
+1. TITIK AWAL & PENENTUAN PERAN (USER ROLE):
 
-program dimulai dari bentuk elif, lalu lanjutkan ke langkah berikutnya.
+​START: Menandai dimulainya program sistem.
+  
+​User Role?: Sistem melakukan pengecekan peran pengguna.
 
-2). Masukkan Data (login)
+Logika bercabang menjadi dua:  
 
-pengguna dimminta mengidentifikasi nama dan sandi. ini tempat memasukkan data.
+​1). Admin: Pengguna masuk ke menu utama Admin yang memiliki akses penuh (Tambah, Lihat, Ubah, Hapus, Keluar).  
 
-3). Cek nama & sandi
+​2). Pengguna: Pengguna masuk ke menu khusus yang hanya memiliki akses terbatas (Lihat Semua Buku & Keluar).  
 
-program memriksa: "apakah nama & sandi yang dimasukkan benar?"
+​2. ALUR KERJA ADMIN:
 
-- Jika TIDAK, Muncul tulisan "Nama atau sandi salah!", lalu kembali ke awal untuk memasukkan nama lagi.
+​Setelah memilih opsi menu (angka 1–5), sistem menjalankan alur sesuai pilihan:  
 
-- Jika YA, Muncul tulisan "Berhasil masuk!", lalu lanjut ke langkah berikutnya.
+​1). Tambah Buku:
+​Sistem meminta input Nama Buku dan Halaman Terakhir Dibaca.  
 
-4). Cek peran Pengguna
+​Sistem menjalankan proses internal Simpan data ke daftar.  
 
-  program menanyakan: "Peran Siapa?"
+​Sistem menampilkan pesan Berhasil ditambahkan, lalu garis panah mengarahkan alur kembali ke Tampil Menu Admin.  
 
-- ADMIN, Masuk ke Menu Admin, isinya 5 pilihan:
+​2). Lihat Semua Buku:
 
-    1. Tambah buku
-   
-    2. Lihat semua buku
-   
-    3. Ubah data buku
-   
-    4. Hapus buku
-   
-    5. Keluar
-   
-    setelah selesai memilih dan melakukan sesuatu, bisa kembali ke menu. Kalau pilih Keluar, program berhenti di [Selesai].
+​Sistem mengecek Cek apakah ada data?
 
-- PEMBACA, Masuk ke Menu Pembaca, isinya cuma 2 pilihan:
+​Jika Ya, sistem menampilkan Tampil semua daftar.
 
-  1. Lihat semua buku
- 
-  2. Keluar
+​Jika Tidak, sistem menampilkan Tampil "Belum ada data".
 
-  Tidak bisa menambah, mengubah, atau menghapus. Kalau pilih Keluar, program berhenti di [Selesai].
+​Alur kembali ke Tampil Menu Admin.
 
-5). Selesai
+​3). Ubah Data Buku:
 
-  Program berakhir dan berhenti berjalan.
+​Sistem mengecek ketersediaan data buku. Jika kosong, tampil Belum ada data.
 
+​Jika ada data, sistem meminta input Masukkan nomor yang diubah.  
+
+​Sistem mengecek Cek nomor ada?. Jika tidak ada, tampil Nomor tidak ada.  
+​Jika nomor valid (Ya), sistem meminta input Nama baru dan Halaman baru, lalu memproses Ganti data lama dengan yang baru.  
+​Setelah tampil Berhasil diubah, alur kembali ke Tampil Menu Admin.  
+
+​4). Hapus Buku:
+
+​Sistem mengecek ketersediaan data. Jika kosong, tampil Belum ada data.  
+​Jika ada data, sistem meminta input Masukkan nomor yang dihapus.  
+​Sistem mengecek validitas nomor. Jika nomor ada (Ya), sistem memproses Hapus data dari daftar.  
+​Setelah tampil Berhasil dihapus, alur kembali ke Tampil Menu Admin.  
+
+​5). Keluar:
+
+​Sistem menampilkan pesan Program selesai dan alur menuju ke titik END (program berhenti).
+
+3. ALUR KERJA PERAN PENGGUNA (USER):
+
+​Pengguna hanya disajikan 2 pilihan menu:  
+
+​1).  Lihat Semua Buku:
+
+​Sama seperti fungsi milik Admin, sistem mengecek ketersediaan data. Jika ada, data ditampilkan; jika tidak ada, tampil pesan Belum ada data. Setelah itu alur kembali ke Menu Pengguna.  
+
+​2). Keluar:
+
+​Sistem menampilkan pesan Program selesai dan alur berakhir di END
 
 3. DOKUMENTASI PROGRAM & OUTPUT
 
