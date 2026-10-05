@@ -65,7 +65,8 @@ pengguna biasa: yang hanya bisa melihat daftar buku. Data disimpan menggunakan D
 
 2. GAMBAR FLOWCHART:
 
-  <img width="658" height="432" alt="Untitled Diagram DDP minpro 2 drawio" src="https://github.com/user-attachments/assets/c7fd328f-8841-4ed9-8223-92e405669820" />
+  <img width="1026" height="1540" alt="Flowchart Daftar buku drawio (2)" src="https://github.com/user-attachments/assets/565e9281-c81a-411b-b6e0-932d68a40c0f" />
+
  
 PENJELASAN ALUR FLOWCHART:
 
