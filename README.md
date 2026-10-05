@@ -82,11 +82,12 @@ Logika bercabang menjadi dua:
 
 ​2). Pengguna: Pengguna masuk ke menu khusus yang hanya memiliki akses terbatas (Lihat Semua Buku & Keluar).  
 
-​2. ALUR KERJA ADMIN:
+2. ALUR KERJA ADMIN:
 
 ​Setelah memilih opsi menu (angka 1–5), sistem menjalankan alur sesuai pilihan:  
 
 ​1). Tambah Buku:
+
 ​Sistem meminta input Nama Buku dan Halaman Terakhir Dibaca.  
 
 ​Sistem menjalankan proses internal Simpan data ke daftar.  
@@ -109,16 +110,11 @@ Logika bercabang menjadi dua:
 
 ​Jika ada data, sistem meminta input Masukkan nomor yang diubah.  
 
-​Sistem mengecek Cek nomor ada?. Jika tidak ada, tampil Nomor tidak ada.  
-​Jika nomor valid (Ya), sistem meminta input Nama baru dan Halaman baru, lalu memproses Ganti data lama dengan yang baru.  
-​Setelah tampil Berhasil diubah, alur kembali ke Tampil Menu Admin.  
+​Sistem mengecek Cek nomor ada?. Jika tidak ada, tampil Nomor tidak ada. Jika nomor valid (Ya), sistem meminta input Nama baru dan Halaman baru, lalu memproses Ganti data lama dengan yang baru. Setelah tampil Berhasil diubah, alur kembali ke Tampil Menu Admin.  
 
 ​4). Hapus Buku:
 
-​Sistem mengecek ketersediaan data. Jika kosong, tampil Belum ada data.  
-​Jika ada data, sistem meminta input Masukkan nomor yang dihapus.  
-​Sistem mengecek validitas nomor. Jika nomor ada (Ya), sistem memproses Hapus data dari daftar.  
-​Setelah tampil Berhasil dihapus, alur kembali ke Tampil Menu Admin.  
+​Sistem mengecek ketersediaan data. Jika kosong, tampil Belum ada data. Jika ada data, sistem meminta input Masukkan nomor yang dihapus. Sistem mengecek validitas nomor. Jika nomor ada (Ya), sistem memproses Hapus data dari daftar. Setelah tampil Berhasil dihapus, alur kembali ke Tampil Menu Admin.  
 
 ​5). Keluar:
 
